@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["YotiDocScanExpoModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.yotidocscanexpo.YotiDocScanExpoModule"]
+  }
+}

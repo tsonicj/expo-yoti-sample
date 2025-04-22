@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yoti_sdk_colorPrimary">#002846</color>
+
+    <color name="yoti_sdk_colorPrimaryDark">#2A4665</color>
+    
+    <color name="yoti_sdk_colorAccent">#00809C</color>
+    
+    <color name="yoti_sdk_colorAccentPressed">#005466</color>
+    
+    <color name="yoti_sdk_colorAccentDisabled">#D9CEDF</color>
+    
+    <color name="yoti_sdk_colorFont">#000000</color>
+</resources>

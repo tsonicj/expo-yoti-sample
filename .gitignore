@@ -36,3 +36,18 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+/android/
+/ios/
+
+/modules/yoti-doc-scan-expo/android/build/
+/modules/yoti-doc-scan-expo/ios/build/
+
+.gradle/
+.idea/
+modules/yoti-doc-scan-expo/android/local.properties
+
+*.pem
+coverage/
+.cursorrules
+.vscode/

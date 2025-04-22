@@ -1,16 +1,20 @@
-import { Link, Stack } from 'expo-router';
-import { StyleSheet, View, Text } from 'react-native';
+import { Stack, useRouter } from 'expo-router';
+import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import React from 'react';
 
 export default function NotFoundScreen() {
+  const router = useRouter();
   return (
     <>
       <Stack.Screen options={{ title: 'Oops!' }} />
       <View style={styles.container}>
         <Text>This screen doesn't exist.</Text>
-        <Link href="/home" style={styles.link}>
+        <TouchableOpacity
+          onPress={() => router.replace('/')}
+          style={styles.link}
+        >
           <Text style={{ color: 'blue' }}>Go to home screen!</Text>
-        </Link>
+        </TouchableOpacity>
       </View>
     </>
   );
